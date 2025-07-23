@@ -2,7 +2,6 @@
 title: "Ejercicio práctico Rmarkdown"
 author:
     - names: "María Hurtado de Mendoza"
-
 date: "`r Sys.Date()`" 
 output: 
     distill::distill_article:
@@ -25,6 +24,7 @@ library(dplyr)
 
 # Cargar los datos
 data <- read.csv("data/top10s.csv")
+data
 
 ```
 
@@ -60,3 +60,4 @@ plot(dur ~ year, data = data)
 abline(lm(dur ~ year, data = data))
 
 ```
+Se observa que la duración de los hits disminuye a lo largo del tiempo.
