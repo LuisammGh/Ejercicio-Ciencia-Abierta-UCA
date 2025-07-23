@@ -61,3 +61,6 @@ abline(lm(dur ~ year, data = data))
 
 ```
 Se observa que la duración de los hits disminuye a lo largo del tiempo.
+
+El doi asociado al Zenodo donde también se han subido algunos ficheros de este trabajo es: 10.5281/zenodo.16388565
+
